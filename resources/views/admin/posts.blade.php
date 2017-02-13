@@ -81,7 +81,7 @@
                                         <button class="btn btn-danger" data-toggle="modal"
                                                 data-title="{{ $post->title }}"
                                                 data-toggle="tooltip" data-placement="top" title="删除"
-                                                data-url="/admin/posts/11{{ $post->id }}"
+                                                data-url="/admin/posts/{{ $post->id }}"
                                                 data-force="{{ $post->trashed() }}"
                                                 data-target="#delete-post-modal">
                                             <i class="fa fa-trash-o  fa-fw"></i>
